@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #181818;
+    background-color: #202020;
     font-family: 'Roboto', sans-serif;
   }
 `;

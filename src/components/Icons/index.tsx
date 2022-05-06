@@ -15,8 +15,8 @@ export type propsType = {
     | "searchByVoice"
     | "virtualKeyboard"
     | "search"
-  background?: "blackMatte";
-  hoverBackground?: boolean;
+  background?: string;
+  hoverBackground?: string;
 };
 
 const index = ({ icon, ...rest}: propsType) => {

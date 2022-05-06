@@ -3,12 +3,9 @@ import { propsType } from "./index";
 
 export const Icons = styled.div<propsType>`
   cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: ${(props) =>
-    props.background === "blackMatte" ? "#181818" : "none"};
+    props.background ? props.background : "transparent"};
   :hover {
-    background: ${(props) => props.hoverBackground === true ? "#383838" : "none"};
+    background: ${(props) => props.hoverBackground ? props.hoverBackground : props.background ||"transparent"}; //o grande problema do hover
   }
 `

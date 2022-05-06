@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 export const VideoTime = styled.div`
-  color: #ffffff;
-  height: 25px;
+  position:absolute;
+  bottom: 12px;
+  right:7px;
+  border-radius: 2px;
   padding: 3px 4px;
-  font-size: 1rem;
+  background: rgba(0, 0, 0, 0.5);
   p {
+    font-size: 1rem;
     display: inline;
-    padding: 2px 2px;
-    border-radius: 2px;
-    background: rgba(0,0,0,0.5);
+    color: #ffffff;
   }
 `;

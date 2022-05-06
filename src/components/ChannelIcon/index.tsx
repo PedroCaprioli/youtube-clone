@@ -3,10 +3,11 @@ import * as S from "./styles";
 
 
 type propsType = {
+  avatar: string;
 };
 
-const index = ({}: propsType) => {
-  return <S.ChannelIcon src="images/ZF-v8A75_400x400.jpg"></S.ChannelIcon>
+const index = ({avatar}: propsType) => {
+  return <S.ChannelIcon src={avatar}></S.ChannelIcon>
 };
 
 export default index;
